@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "pgsql_to_onelake",
+    "description": "PostgreSQL to OneLake pipeline notebook"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7ac23c81-9551-469f-ba4d-43fe2b5e9d02"
+  }
+}
