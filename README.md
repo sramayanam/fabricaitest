@@ -20,7 +20,8 @@ A collection of **Microsoft Fabric** pipeline templates.
 
 | File | Description |
 |------|-------------|
-| `pipeline/pgsql_to_onelake.ipynb` | Main Fabric Spark notebook pipeline template |
+| `pipeline/pgsql_to_onelake.Notebook/notebook-content.py` | Main Fabric Spark notebook pipeline template (Fabric Git format) |
+| `pipeline/pgsql_to_onelake.Notebook/.platform` | Fabric item metadata (type, displayName, logicalId) |
 | `pipeline/type_mappings.py` | PostgreSQL → Spark type mapping utility |
 
 ### PostgreSQL → Spark type mapping summary
@@ -60,7 +61,7 @@ A collection of **Microsoft Fabric** pipeline templates.
 
 1. Open the Lakehouse in Microsoft Fabric.
 2. Upload `pipeline/type_mappings.py` to `Files/`.
-3. Import `pipeline/pgsql_to_onelake.ipynb` as a new Notebook.
+3. Import `pipeline/pgsql_to_onelake.Notebook/` as a new Notebook via Fabric Git integration.
 4. Set the notebook parameters (either inline or via a Fabric Data Pipeline):
 
    | Parameter | Example value |
